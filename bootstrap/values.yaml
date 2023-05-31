@@ -3,7 +3,7 @@
 ##
 
 ## Helm Repo GIT
-helmRepoUrl: https://github.com/likid0/argocd-odf
+helmRepoUrl: https://github.com/automationiberia/argocd-odf
 
 # ArgoCD apps definition
 apps:
