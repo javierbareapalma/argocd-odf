@@ -4,7 +4,7 @@
 #
 oadp:
 # OADP version Channel
-  channel: 'stable'
+  channel: 'stable-1.1'
 volsync:
 # Volsync-Product version Channel
   channel: 'stable'
