@@ -11,7 +11,7 @@ spec:
 {{- range $ns := $.Values.namespaces }}
     - namespace: {{ $ns }}
       server: https://kubernetes.default.svc
-{{- end }} 
+{{- end }}
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'

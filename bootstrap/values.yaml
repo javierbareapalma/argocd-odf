@@ -19,7 +19,14 @@ apps:
     path: lso/
     autosync: false
     namespace: openshift-local-storage
+  deploy-oadp:
+    branch: main
+    enabled: true
+    path: oadp/
+    autosync: false
+    namespace: openshift-adp
 namespaces:
+  - openshift-adp
   - openshift-local-storage
   - openshift-storage
   - openshift-machine-api

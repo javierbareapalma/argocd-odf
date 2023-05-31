@@ -1,0 +1,11 @@
+##
+# OADP Chart values
+##
+#
+oadp:
+# OADP version Channel
+  channel: 'stable'
+volsync:
+# Volsync-Product version Channel
+  channel: 'stable'
+
