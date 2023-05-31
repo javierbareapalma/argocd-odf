@@ -7,7 +7,6 @@ metadata:
     argocd.argoproj.io/sync-wave: "0"
 spec:
   channel: '{{ .Values.oadp.channel }}'
-  installPlanApproval: Automatic
   name: redhat-oadp-operator
-  source: oadp-operator-catalog
+  source: redhat-operators
   sourceNamespace: openshift-marketplace
