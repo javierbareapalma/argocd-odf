@@ -30,6 +30,6 @@ namespaces:
   - openshift-local-storage
   - openshift-storage
   - openshift-machine-api
-  - openshift-gitops-operator
   - openshift-operators
   - openshift-gitops
+  - openshift-gitops-operator
