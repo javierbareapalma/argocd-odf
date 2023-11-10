@@ -3,7 +3,7 @@
 ##
 
 ## Helm Repo GIT
-helmRepoUrl: https://github.com/automationiberia/argocd-odf
+helmRepoUrl: https://github.com/javierbareapalma/argocd-odf
 
 # ArgoCD apps definition
 apps:
@@ -15,13 +15,13 @@ apps:
     namespace: openshift-storage
   deploy-lso:
     branch: main
-    enabled: true
+    enabled: false
     path: lso/
     autosync: false
     namespace: openshift-local-storage
   deploy-oadp:
     branch: main
-    enabled: true
+    enabled: false
     path: oadp/
     autosync: false
     namespace: openshift-adp
@@ -30,5 +30,6 @@ namespaces:
   - openshift-local-storage
   - openshift-storage
   - openshift-machine-api
+  - openshift-gitops-operator
   - openshift-operators
   - openshift-gitops
