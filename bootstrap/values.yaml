@@ -8,19 +8,19 @@ helmRepoUrl: https://github.com/javierbareapalma/argocd-odf
 # ArgoCD apps definition
 apps:
   deploy-odf:
-    branch: main
+    branch: argocdsinoperador
     enabled: true
     path: odf/
     autosync: false
     namespace: openshift-storage
   deploy-lso:
-    branch: main
+    branch: argocdsinoperador
     enabled: false
     path: lso/
     autosync: false
     namespace: openshift-local-storage
   deploy-oadp:
-    branch: main
+    branch: argocdsinoperador
     enabled: false
     path: oadp/
     autosync: false
@@ -32,4 +32,3 @@ namespaces:
   - openshift-machine-api
   - openshift-operators
   - openshift-gitops
-  - openshift-gitops-operator
