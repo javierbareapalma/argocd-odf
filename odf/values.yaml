@@ -104,6 +104,6 @@ osds:
 #Number of replicas for the device set configuration. Set to 3 by default.
 #  replicas: 3
 #Storage Class that will be used to provision the ODF OSDs. If using LSO set it to 'localblock'
-  scname: 'thin'
+  scname: 'gp3-csi'
 #Size of Each PV that will be provisioned to be used by the OSDs.
-  disksize: '200Gi'
+  disksize: '512Gi'
