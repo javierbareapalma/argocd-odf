@@ -14,7 +14,7 @@ mcgstandalone:
 
 odf:
 # ODF Version/Channel
-  channel: 'stable-4.13'
+  channel: 'stable-4.14'
 # Resource request/limits per service
   mon:
     requests:
@@ -106,4 +106,4 @@ osds:
 #Storage Class that will be used to provision the ODF OSDs. If using LSO set it to 'localblock'
   scname: 'thin'
 #Size of Each PV that will be provisioned to be used by the OSDs.
-  disksize: '100Gi'
+  disksize: '200Gi'
