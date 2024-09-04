@@ -8,25 +8,18 @@ helmRepoUrl: https://github.com/javierbareapalma/argocd-odf
 # ArgoCD apps definition
 apps:
   deploy-odf:
-    branch: main
+    branch: sep-odf-same-workers
     enabled: true
     path: odf/
     autosync: false
     namespace: openshift-storage
   deploy-lso:
-    branch: main
+    branch: sep-odf-same-workers
     enabled: false
     path: lso/
     autosync: false
     namespace: openshift-local-storage
-  deploy-oadp:
-    branch: main
-    enabled: false
-    path: oadp/
-    autosync: false
-    namespace: openshift-adp
 namespaces:
-  - openshift-adp
   - openshift-local-storage
   - openshift-storage
   - openshift-machine-api
