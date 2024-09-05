@@ -97,7 +97,7 @@ dedicated:
 osds:
 # Number of OSDs that will be deployed, if replica is set to 3 by defau,t, setting 1 here equals to 3 OSDs, 2 = 6 OSDs, etc.
 # If replica is set to 1 , setting 1 in devicesetcount will get you 1 OSD.
-  devicesetcount: 1
+  devicesetcount: 2
 #Enable cluster OSD encription
   encryption:
     enabled: false
